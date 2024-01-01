@@ -1,0 +1,64 @@
+.hero {
+    background-color: #1F2937
+}
+
+.hero > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.topbar > * {
+    max-height: 20px;
+    align-items: center;
+}
+
+.logo {
+    flex-shrink: 0;
+    display: flex; 
+    font-size: 24px;   
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 1em;
+    gap: 2em;
+}
+
+.main-image img {
+    width: 400px;    
+}
+
+.logo,
+.main-text h1,
+.main-text button {
+    color: #F9FAF8;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight: bolder; 
+}
+
+.secondary-text {
+    margin-top: -30px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+}
+
+.links,
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+}
