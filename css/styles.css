@@ -1,5 +1,5 @@
 .hero {
-    background-color: #1F2937
+    background-color: #1F2937;
 }
 
 .hero > * {
@@ -88,3 +88,13 @@ a, a:visited, a:hover, a:active {
     font-size: 18px;
     font-weight: lighter;
 }
+
+.box-illustrations {
+    border: 5px solid red;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+}
+
