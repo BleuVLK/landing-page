@@ -1,4 +1,11 @@
-.hero {
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -6,7 +13,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1em;
 }
 
 .topbar > * {
@@ -43,7 +49,6 @@ a, a:visited, a:hover, a:active {
 .main-text {
     flex-direction: column;
     max-width: 400px;
-    margin-left: 2em;
 }
 
 .main-image img {
@@ -52,7 +57,10 @@ a, a:visited, a:hover, a:active {
 
 .logo,
 .main-text h1,
-.main-text button {
+.main-text button,
+.call-to-action,
+.action-sign-up,
+.footer {
     color: #F9FAF8;
 }
 
@@ -62,20 +70,13 @@ a, a:visited, a:hover, a:active {
     text-shadow: 0 0 10px; 
 }
 
-.secondary-text {
-    margin-top: -30px;
-}
-
-.button {
-    margin-top: -10px;
-}
 .sign-up {
     background-color: #3882F6;
     font-weight: bold;
     border-radius: 5px;
-    padding: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: none;
 
 }
@@ -90,7 +91,8 @@ a, a:visited, a:hover, a:active {
 .box-illustrations {
     padding-left: 2em;
     padding-right: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 6em;
+
 }
 
 .section2-title {
@@ -98,6 +100,7 @@ a, a:visited, a:hover, a:active {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    padding-top: 1em;
 }
 
 
@@ -105,6 +108,7 @@ a, a:visited, a:hover, a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2em;
     gap: 1em;
     padding-right: 2em;
     padding-left: 2em;
@@ -126,9 +130,63 @@ a, a:visited, a:hover, a:active {
 
 .box .subtext {
     flex-wrap: wrap;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
-    max-width: 120px;
+    max-width: 110px;
     margin-right: 1em;
     margin-left: 1em;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 4em;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-to-action {
+    background: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    padding: 2em;
+    border-radius: 6px;
+    gap: 3em;
+}
+
+.action-sign-up {
+    background-color: inherit;
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boldened {
+    font-weight: bold;
+}
+
+.lightened {
+    font-weight: light;
+}
+
+.footer p {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
 }
